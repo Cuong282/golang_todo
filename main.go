@@ -16,5 +16,6 @@ func main() {
 	fmt.Println("server runing 3000:", *listenAddr)
 
 	log.Fatal(server.Start())
+	fmt.Println("cuong")
 
 }
